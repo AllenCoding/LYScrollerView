@@ -12,7 +12,6 @@
 #define screen_H [UIScreen mainScreen].bounds.size.height
 #define screen_W [UIScreen mainScreen].bounds.size.width
 
-
 @interface ViewController ()<LYScrollViewDelegate>
 
 @property(nonatomic,strong)LYScrollView*lyscrollview;
@@ -30,7 +29,6 @@
     }
     return _lyscrollview;
 }
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
